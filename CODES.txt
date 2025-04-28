@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zubair Anwer's Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Zubair Anwer's Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Zubair Anwer's Blog</h2>
+      <p>Sharing thoughts, stories, and creativity ✨</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-cards">
+        <div class="card">
+          <h3>Who I Am</h3>
+          <p>I’m a passionate writer and creative thinker.</p>
+        </div>
+        <div class="card">
+          <h3>Fun Fact</h3>
+          <p>I’ve traveled to 15 countries and counting!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog">
+    <div class="container">
+      <h2>Latest Posts</h2>
+      <div class="posts">
+        <div class="post">
+          <h3>Blog Post Title 1</h3>
+          <p>Quick preview of the blog content...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="post">
+          <h3>Blog Post Title 2</h3>
+          <p>Quick preview of another blog content...</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Zubair Anwer | Follow me on social media</p>
+  </footer>
+</body>
+</html>

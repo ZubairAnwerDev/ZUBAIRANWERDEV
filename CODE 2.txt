@@ -1,0 +1,111 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f9f7f1;
+  color: #333;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+header {
+  background: #fff;
+  padding: 1em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #7d5a50;
+}
+
+.hero {
+  padding: 5em 0;
+  text-align: center;
+  background: #eae7dc;
+}
+
+.about, .blog, .contact {
+  padding: 4em 0;
+}
+
+.about-cards {
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.card {
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.post {
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 2em 0;
+  font-size: 0.9em;
+  background: #fff;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form button {
+  background: #7d5a50;
+  color: #fff;
+  padding: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #5b3e34;
+}
